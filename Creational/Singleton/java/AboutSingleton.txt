@@ -17,3 +17,10 @@ Use-cases of singleton design pattern:
 2. Cache
 3. Session
 4. Drivers
+
+Pros of using Singleton Enum:
+1. No use of private constructor
+2. Thread safe method
+3. Guaranteed one instance (Cannot instantiate more than one enum even through reflection)
+
+Hence, this method is recommended as the best method of making singletons in Java.
